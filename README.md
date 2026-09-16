@@ -8,7 +8,7 @@
 
 <br />
 
-[**↗ Open the interactive portfolio website**](https://ridhimakulashriz.github.io/RidhimaKulashriz/)
+[**↗ Open the interactive portfolio website**](https://raw.githack.com/RidhimaKulashriz/RidhimaKulashriz/main/index.html)
 
 </div>
 
