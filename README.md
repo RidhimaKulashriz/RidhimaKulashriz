@@ -28,7 +28,6 @@ I am most interested in the space between an idea and a system people can actual
 
 </div>
 
-<img src="https://raw.githubusercontent.com/RidhimaKulashriz/RidhimaKulashriz/main/assets/systems-map.svg" alt="Product, data, intelligence, and edge systems map" width="100%" />
 
 ## Selected work
 
