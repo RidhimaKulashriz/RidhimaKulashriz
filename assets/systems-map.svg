@@ -1,0 +1,10 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="250" rx="18" fill="#F6F3EE"/>
+  <text x="56" y="52" fill="#0B1F33" font-family="Georgia, serif" font-size="25" font-weight="700">How I think about engineering</text>
+  <text x="56" y="82" fill="#5C7077" font-family="Arial, sans-serif" font-size="14">Build useful systems across the interface, the intelligence layer, and the edge.</text>
+  <path d="M255 152H390M525 152H660M795 152H930" stroke="#8EB8B1" stroke-width="2" stroke-dasharray="6 8"/>
+  <g><rect x="56" y="116" width="199" height="72" rx="12" fill="#0B1F33"/><text x="82" y="146" fill="#E8F0F2" font-family="Arial" font-size="15" font-weight="700">01 · PRODUCT</text><text x="82" y="169" fill="#A9C4CA" font-family="Arial" font-size="13">Interfaces &amp; workflows</text></g>
+  <g><rect x="390" y="116" width="135" height="72" rx="12" fill="#DDECE8"/><text x="412" y="146" fill="#0B1F33" font-family="Arial" font-size="15" font-weight="700">02 · DATA</text><text x="412" y="169" fill="#42646A" font-family="Arial" font-size="13">APIs &amp; models</text></g>
+  <g><rect x="660" y="116" width="135" height="72" rx="12" fill="#E6B86A"/><text x="682" y="146" fill="#0B1F33" font-family="Arial" font-size="15" font-weight="700">03 · INTEL</text><text x="682" y="169" fill="#5D4A2B" font-family="Arial" font-size="13">Vision &amp; RAG</text></g>
+  <g><rect x="930" y="116" width="214" height="72" rx="12" fill="#123F52"/><text x="957" y="146" fill="#E8F0F2" font-family="Arial" font-size="15" font-weight="700">04 · EDGE</text><text x="957" y="169" fill="#A9C4CA" font-family="Arial" font-size="13">FPGA · ESP32 · Pi</text></g>
+</svg>
