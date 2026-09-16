@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1f33" />
+  <meta name="description" content="Ridhima Kulashri — engineering, systems, and impact." />
+  <title>Ridhima Kulashri — Engineering, Systems, Impact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Ridhima Kulashri home"><span>RK</span><b>Ridhima<br />Kulashri</b></a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#capabilities">Capabilities</a>
+    </nav>
+    <a class="header-cta" href="mailto:ridhimakulashri07042025@gmail.com">Let’s talk <span>↗</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+  <div class="mobile-nav" id="mobileNav"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#capabilities">Capabilities</a><a href="mailto:ridhimakulashri07042025@gmail.com">Contact</a></div>
+
+  <main>
+    <section class="hero page-section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ELECTRONICS &amp; COMMUNICATION ENGINEERING · IGDTUW</p>
+        <h1>Building systems<br /><em>people can trust.</em></h1>
+        <p class="hero-intro">I’m Ridhima, a software engineer in the making working across full-stack products, intelligent systems, computer vision, and secure hardware.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">Explore selected work <span>↓</span></a><a class="text-link" href="https://github.com/RidhimaKulashriz" target="_blank" rel="noreferrer">GitHub profile <span>↗</span></a></div>
+      </div>
+      <div class="hero-visual reveal delay-1" aria-label="System architecture illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit-core">RK</div>
+        <span class="node node-a">PRODUCT</span><span class="node node-b">DATA</span><span class="node node-c">INTELLIGENCE</span><span class="node node-d">EDGE</span>
+        <div class="connector connector-a"></div><div class="connector connector-b"></div><div class="connector connector-c"></div><div class="connector connector-d"></div>
+        <p class="visual-caption">A systems-minded approach<br />from interface to infrastructure.</p>
+      </div>
+      <div class="hero-meta"><span>01 — 04</span><span>SCROLL TO DISCOVER</span><span>NEW DELHI, INDIA</span></div>
+    </section>
+
+    <section class="intro-strip" id="about"><div class="section-label">01 / Perspective</div><div class="intro-grid"><h2>From an idea<br /><em>to a dependable system.</em></h2><div><p>I care about the details between the prototype and the product: a clear data model, useful interfaces, explainable outputs, resilient APIs, and a workflow that makes the right decision easier.</p><p>My work brings together software and the physical world, whether that means inspecting infrastructure with drones, understanding urban climate risk, or hardening encryption on FPGA hardware.</p><a class="text-link" href="#capabilities">See how I work <span>→</span></a></div></div></section>
+
+    <section class="work-section page-section" id="work"><div class="section-heading"><div class="section-label">02 / Selected work</div><h2>Systems with a<br /><em>reason to exist.</em></h2><div class="filter-row" role="tablist" aria-label="Filter projects"><button class="filter active" data-filter="all">All work</button><button class="filter" data-filter="product">Products</button><button class="filter" data-filter="intelligence">Intelligence</button><button class="filter" data-filter="edge">Edge systems</button></div></div>
+      <div class="project-grid">
+        <article class="project-card featured reveal" data-category="product intelligence" data-project="drift"><div class="card-top"><span>01</span><span>FULL-STACK / COMPUTER VISION</span></div><div class="project-graphic drift-graphic"><div class="graphic-grid"></div><span class="graphic-label label-one">EVIDENCE</span><span class="graphic-label label-two">REVIEW</span><span class="graphic-label label-three">REPORT</span><i></i></div><h3>DRIFT</h3><p>Drone infrastructure inspector</p><button class="card-link open-project">Read case study <span>↗</span></button></article>
+        <article class="project-card reveal delay-1" data-category="product intelligence" data-project="canopy"><div class="card-top"><span>02</span><span>GEOSPATIAL / CLIMATE</span></div><div class="project-graphic canopy-graphic"><div class="canopy-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>DELHI / WARD INTELLIGENCE</span></div><h3>DelhiCanopy AI</h3><p>Urban climate intelligence platform</p><button class="card-link open-project">Read case study <span>↗</span></button></article>
+        <article class="project-card reveal" data-category="product" data-project="stockp"><div class="card-top"><span>03</span><span>DATA PRODUCT / FINANCE</span></div><div class="project-graphic stock-graphic"><div class="chart-line"></div><span class="chart-number">+18.4%</span><span class="chart-caption">PORTFOLIO SIGNAL</span></div><h3>StockP</h3><p>Financial analytics platform</p><button class="card-link open-project">Read case study <span>↗</span></button></article>
+        <article class="project-card reveal delay-1" data-category="intelligence" data-project="gov"><div class="card-top"><span>04</span><span>RAG / PUBLIC DATA</span></div><div class="project-graphic gov-graphic"><span class="query">“Find the signal<br />in the archive.”</span><div class="query-lines"><i></i><i></i><i></i></div></div><h3>Gov RAG AI</h3><p>Intelligent government query system</p><button class="card-link open-project">Read case study <span>↗</span></button></article>
+        <article class="project-card reveal" data-category="edge intelligence" data-project="guardian"><div class="card-top"><span>05</span><span>EDGE / SECURITY</span></div><div class="project-graphic guardian-graphic"><div class="radar"></div><span>PERIMETER ACTIVE</span></div><h3>Guardian AI</h3><p>Smart farm security</p><button class="card-link open-project">Read case study <span>↗</span></button></article>
+      </div>
+    </section>
+
+    <section class="experience-section page-section" id="experience"><div class="section-label">03 / Experience</div><div class="experience-layout"><h2>Learning by<br /><em>shipping.</em></h2><div class="timeline"><article><div class="timeline-date">2026</div><div><h3>Software Development Engineer Intern</h3><p class="company">Siemens EDA</p><p>Built an agentic AI internal chatbot with object-oriented design, API integration, conversation-flow refinement, and tool-calling logic for developer support.</p></div></article><article><div class="timeline-date">6 WEEKS</div><div><h3>Cybersecurity Intern</h3><p class="company">DRDO — Scientific Analysis Group</p><p>Optimized encryption and decryption routines and deployed the hardened implementation on FPGA hardware for sensitive systems.</p></div></article><article><div class="timeline-date">2025—26</div><div><h3>Web Development &amp; Open Source</h3><p class="company">MLSA IGDTUW · E-Cell · Adhigam · SWOC</p><p>Shipped React/Node tools and interfaces across a university technology chapter, startup cell, NGO, and open-source contributions.</p></div></article><article><div class="timeline-date">PRESENT</div><div><h3>Technical Member, DSA</h3><p class="company">GDG IGDTUW</p><p>Practicing graph theory and dynamic programming through structured peer coding and collaborative problem-solving.</p></div></article></div></div></section>
+
+    <section class="recognition-section"><div class="section-label">04 / Recognition</div><div class="recognition-grid"><div class="recognition-feature"><span class="big-number">02</span><h2>Tracks won<br /><em>at Decode SIH 2026.</em></h2><p>Plus runner-up in the Render track.</p></div><div class="recognition-list"><div><b>Top 100</b><span>FAR AWAY 2026 · 11,000+ registrations</span></div><div><b>Winner</b><span>Delhi AI Grind National Hackathon</span></div><div><b>Team Lead</b><span>Smart India Hackathon 2025</span></div></div></div></section>
+
+    <section class="capabilities-section page-section" id="capabilities"><div class="section-label">05 / Capabilities</div><div class="capabilities-layout"><h2>The toolkit<br /><em>behind the work.</em></h2><div class="capability-tabs"><div class="tab-buttons"><button class="tab active" data-tab="engineering">Engineering</button><button class="tab" data-tab="intelligence">Intelligence</button><button class="tab" data-tab="systems">Systems</button></div><div class="tab-panel active" id="engineering"><h3>Engineering</h3><p>React 18 · TypeScript · Vite · TanStack Query · Material UI · Leaflet · Node.js · Express · tRPC · REST APIs · JWT · Passport.js · Server-Sent Events</p></div><div class="tab-panel" id="intelligence"><h3>Intelligence</h3><p>Python · YOLOv8 · Roboflow · LangChain · LangGraph · RAG · embeddings · semantic search · geospatial AI · NumPy · Matplotlib</p></div><div class="tab-panel" id="systems"><h3>Systems</h3><p>PostgreSQL · Drizzle ORM · MongoDB · Supabase · Raspberry Pi · Arduino · ESP32 firmware · FPGA security · GPS/EXIF processing · Git</p></div></div></div></section>
+
+    <section class="contact-section page-section" id="connect"><div class="contact-inner"><p class="eyebrow">LET’S BUILD SOMETHING USEFUL</p><h2>Have a thoughtful<br /><em>problem to solve?</em></h2><a class="contact-email" href="mailto:ridhimakulashri07042025@gmail.com">ridhimakulashri07042025@gmail.com <span>↗</span></a><div class="social-links"><a href="https://github.com/RidhimaKulashriz" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/ridhima-kulashri-b32836378/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/RidhimaKulashriz/leet" target="_blank" rel="noreferrer">DSA practice</a></div></div></section>
+  </main>
+  <footer><span>© 2026 Ridhima Kulashri</span><span>Formal systems. Clear interfaces. Useful outcomes.</span><a href="#top">Back to top ↑</a></footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close case study">×</button><p class="eyebrow" id="modalKicker"></p><h2 id="modalTitle"></h2><p class="modal-summary" id="modalSummary"></p><div class="modal-details" id="modalDetails"></div><a class="button button-dark" id="modalLink" href="#" target="_blank" rel="noreferrer">Open repository <span>↗</span></a></div></div>
+</body>
+</html>

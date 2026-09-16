@@ -6,6 +6,10 @@
 
 [**About**](#about) · [**Selected work**](#selected-work) · [**Experience**](#experience) · [**Capabilities**](#capabilities) · [**Connect**](#connect)
 
+<br />
+
+[**↗ Open the interactive portfolio website**](https://ridhimakulashriz.github.io/RidhimaKulashriz/)
+
 </div>
 
 ---
